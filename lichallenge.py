@@ -10,7 +10,7 @@ inc = int(input("Clock increment in seconds:"))
 games = int(input("How many open challenges to create:"))
 variant = input("Variant (blank for standard):")
 fen = input("Starting FEN (blank for default):")
-
+print(fen)
 if not fen:
     fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
 if not variant:
